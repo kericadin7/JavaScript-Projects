@@ -17,27 +17,27 @@ PossibleChoices.forEach(PossibleChoices => PossibleChoices.addEventListener('cli
 
 function generateComputerChoice() {
   const randomNumber = Math.floor(Math.random() * 3) + 1;
-  // const randomNumber = Math.random() * PossibleChoices.length;
+  // const randomNumber = Math.floor(Math.random() * PossibleChoices.length) + 1;
 
-  if(randomNumber === 1) computerChoice = 'rock';
-  if(randomNumber === 2) computerChoice = 'paper';
-  if(randomNumber === 3) computerChoice = 'scissors';
+  if(randomNumber === 1) computerChoice = 'Rock';
+  if(randomNumber === 2) computerChoice = 'Paper';
+  if(randomNumber === 3) computerChoice = 'Scissors';
 
   ComputerChoiceDisplay.innerHTML = computerChoice;
 
   }
 
 function getResult() {
-  if(computerChoice === userChoice) result = 'its a draw !';
+  if(computerChoice === userChoice) result = 'It is a draw !';
 
-  if(computerChoice === 'rock' && userChoice === 'paper') result = 'you win !';
-  if(computerChoice === 'rock' && userChoice === 'scissors') result = 'you lose !';
+  if(computerChoice === 'Rock' && userChoice === 'Paper') result = 'You Win !';
+  if(computerChoice === 'Rock' && userChoice === 'Scissors') result = 'You Lose !';
 
-  if(computerChoice === 'paper' && userChoice === 'scissors') result = 'you win !';
-  if(computerChoice === 'paper' && userChoice === 'rock') result = 'you lose !';
+  if(computerChoice === 'Paper' && userChoice === 'Scissors') result = 'You Win !';
+  if(computerChoice === 'Paper' && userChoice === 'Rock') result = 'You Lose !';
 
-  if(computerChoice === 'scissors' && userChoice === 'rock') result = 'you win !';
-  if(computerChoice === 'scissors' && userChoice === 'paper') result = 'you lose !';
+  if(computerChoice === 'Scissors' && userChoice === 'Rock') result = 'You Win !';
+  if(computerChoice === 'Scissors' && userChoice === 'Paper') result = 'You Lose !';
 
   ResultDisplay.innerHTML = result;
   
