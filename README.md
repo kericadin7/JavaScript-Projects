@@ -5,8 +5,8 @@ I use this repository to test ideas, try different concepts, and conduct experim
 Who knows, maybe some of them will be useful to someone someday.
 
 ## 📦 Technologies
-- **Html**
-- **Css**
+- **HTML**
+- **CSS**
 - **JavaScript**
 
 ## 🚀 The Process
