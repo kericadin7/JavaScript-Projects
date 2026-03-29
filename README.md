@@ -14,3 +14,5 @@ I started learning JS a while ago, but stopped because I got bored and didn't se
 Now I'm a second-year software engineering student, and JS is something we use a lot, so I decided to learn it again and focus more on it.
 
 ## Projects
+
+- First project: 
