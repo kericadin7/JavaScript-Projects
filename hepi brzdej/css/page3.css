@@ -1,0 +1,72 @@
+:root {
+    --text-color: #ffffff;
+    --pink-color: #ff9ecf;
+    --pink2-color: #ff4fa3;
+    --pink3-color: #ff2e8a;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--pink-color);
+    color: var(--text-color);
+}
+
+.container {
+    padding: 20px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 15px;
+}
+
+.card {
+  background: rgba(255,255,255,0.2);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.card img {
+  width: 150px;
+}
+
+.card h3 {
+  text-align: left;
+  padding: 10px;
+}
+
+.card p {
+  padding: 0 10px 10px;
+}
+
+.final {
+  text-align: center;
+  padding: 20px;
+}
+
+.pulse {
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+.btn {
+  margin-top: 20px;
+  padding: 12px 20px;
+  background: #ff4fa3;
+  border-radius: 25px;
+  color: white;
+  border: none;
+}

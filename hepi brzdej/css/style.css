@@ -1,0 +1,53 @@
+:root {
+    --text-color: #ffffff;
+    --pink-color: #ff9ecf;
+    --pink2-color: #ff4fa3;
+    --pink3-color: #ff2e8a;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--pink-color);
+    
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" height="32" width="32"><text y="20" font-size="20">🤍</text></svg>') 16 16, auto;
+}
+
+.container {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 4rem;
+    color: var(--text-color);
+}
+
+#typing {
+  color: var(--text-color);
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 20px;
+    background: var(--pink2-color);
+    border-radius: 25px;
+    color: var(--text-color);
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
