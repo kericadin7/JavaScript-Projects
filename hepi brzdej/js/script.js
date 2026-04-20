@@ -13,10 +13,10 @@ typeWriter();
 
 function showReasons() {
   const reasons = [
-    "Volim te jer si ti moj cuker 🤍",
+    "Volim te jer si ti moja 🤍",
     "Volim te jer me nasmijavaš 🤍",
     "Volim te jer si predivna osoba 🤍",
-    "VOLIM TE ZATO ŠTO SI TI MOJA LUDICA 🤍"
+    "VOLIM TE ZATO ŠTO SI TI MOJA LJUBAV 🤍"
   ];
 
   const container = document.getElementById("reasons");
