@@ -1,4 +1,4 @@
-const text = "Ti si moj cuker i ja tebe volim najvišeee 🤍";
+const text = "Ti si moja i ja tebe volim najvišeee 🤍";
 let i = 0;
 
 function typeWriter() {
